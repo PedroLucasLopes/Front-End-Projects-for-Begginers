@@ -47,8 +47,9 @@ Automatic image slider with smooth transaction between the carousel images
 
 ![slider](https://user-images.githubusercontent.com/76705087/143366260-72e7348d-5f1f-4833-8b0a-52362b4ed71a.PNG)
 
-### 7 - Slider
+### 7 - To do List
 
+A personal list for shopping, tasks and everything you want!
 ![To do List](https://user-images.githubusercontent.com/76705087/143366378-684aaf15-9729-40d8-8454-80898cb4d269.PNG)
 
 ## Well, this is all of my study projects to show my challenges that I proposed to do, thanks for attention and you're always welcome to visit this repository to get inspired to made your version of them.
