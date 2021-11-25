@@ -1,0 +1,86 @@
+:root {
+    --black: rgba(31, 28, 28, 0.6);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    padding-top: 20vh;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    color: var(--black);
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: crimson;
+}
+
+::selection {
+    background-color: rgb(144, 31, 54);
+    color: rgb(218, 200, 200);
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+input {
+    width: 20vw;
+    height: 5vh;
+    border-radius: 2px;
+    border: 1px solid rgba(31, 28, 28, 0.9);
+    outline: none;
+}
+
+#add {
+    display: flex;
+}
+
+#btnHeader {
+    width: 65px;
+    height: 35px;
+    border: 1px solid rgba(31, 28, 28, 0.9);
+    border-radius: 2px;
+    background-color: rgb(172, 37, 64);
+    color: rgb(218, 200, 200);
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    color: rgba(31, 28, 28, 0.9);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10vh;
+    flex-wrap: wrap;
+}
+
+li {
+    background-color:#fff;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(31, 28, 28);
+    font-weight: 700;
+    border-radius: 2px;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.btnList {
+    width: 65px;
+    height: 40px;
+    border: none;
+    background-color: rgb(172, 37, 64);
+    color: rgb(218, 200, 200);
+    cursor: pointer;
+}
+
+#btnHeader:hover, .btnList:hover {
+    background-color: rgb(144, 31, 54);
+}

@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: crimson;
+    color: rgba(31, 28, 28, 0.6);
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    gap: 15px;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+input {
+    width: 25vw;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid rgb(31, 28, 28)
+}
+
+.textCounter {
+    color: #fff;
+    opacity: 1;
+    text-align: center;
+}
