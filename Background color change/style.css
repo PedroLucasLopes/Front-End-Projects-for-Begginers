@@ -16,6 +16,7 @@ body {
 header {
     margin-top: 40vh;
     font-size: 3rem;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 main {
@@ -29,4 +30,11 @@ button {
     cursor: pointer;
     font-weight: bold;
     background-color: rgba(255, 255, 255, 0.5);
+}
+
+footer p {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 100px;
 }
